@@ -77,6 +77,20 @@ public class MainActivity extends AppCompatActivity {
             case R.id.threeBpointsButton:
                 scoreTeamB += 3;
                 break;
+
+            case R.id.twoApointsButton:
+                scoreTeamA+=2;
+                break;
+            case R.id.twoBpointsButton:
+                scoreTeamB += 2;
+                break;
+
+            case R.id.oneApointsButton:
+                scoreTeamA+=1;
+                break;
+            case R.id.oneBpointsButton:
+                scoreTeamB += 1;
+                break;
             //more cases
             case R.id.resetBothTeamScores:
                 scoreTeamA = 0;
